@@ -4,6 +4,9 @@
 
 This mod allows the Goose to use telepathically to channel its wondrous thoughts and doings to Discord. Kinda Cool, right?
 
+# Preview
+![Preview](https://gyazo.com/b681385748b9b6585b497c19cbb02e9c.gif)
+
 ## Features
 
  - Adds Discord RPC Capabilities for the Goose.
@@ -20,9 +23,6 @@ Mod Version: **1.0**
 Author: **vis#7946**
 
 Look inside: [Source](https://github.com/VisualError/GoosePresence/)
-
-# Preview
-![Preview](https://gyazo.com/b681385748b9b6585b497c19cbb02e9c.gif)
 
 
 
