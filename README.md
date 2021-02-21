@@ -20,7 +20,7 @@ Goose Version: **v0.3**
 
 Mod Version: **1.0.1**
 
-Author: **vis#7946**
+Author: **vis#5001**
 
 Look inside: [Source](https://github.com/VisualError/GoosePresence/)
 
