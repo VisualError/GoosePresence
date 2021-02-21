@@ -1,22 +1,28 @@
 ﻿using GooseShared;
 using System;
+using System.Diagnostics;
 using System.Drawing;
-using System.Threading;
 
 namespace GoosePresence
 {
     public class ModEntryPoint : IMod
     {
-        private RPC GoosePresence = new RPC("736878420754956318");
+        private RPC GoosePresence = new RPC("812955051705761822");
         void IMod.Init()
         {
-            InjectionPoints.PostTickEvent += PostTick;
+            InjectionPoints.PreTickEvent += PreTick;
             GoosePresence.Init();
+            Process.GetCurrentProcess().Exited += new EventHandler(OnProcessExit);
         }
 
-        public void PostTick(GooseEntity g)
+        public void PreTick(GooseEntity g)
         {
             GoosePresence.Update(g);
+        }
+
+        public void OnProcessExit(object sender, EventArgs e)
+        {
+            GoosePresence.Disconnect();
         }
     }
 }
