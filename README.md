@@ -14,7 +14,7 @@ This mod allows the Goose to use telepathy to channel its wondrous thoughts and 
 
 # Download
 
-Get it: [Goose Presence.zip](https://github.com/VisualError/GoosePresence/releases/latest/download/GoosePresence.zip)
+Get it: [GoosePresence.zip](https://github.com/VisualError/GoosePresence/releases/latest/download/GoosePresence.zip)
 
 Goose Version: **v0.3**
 
